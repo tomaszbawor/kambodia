@@ -1,4 +1,4 @@
-import { FC, PropsWithChildren } from 'react';
+import React, { PropsWithChildren } from 'react';
 
 export const GameWrapper: React.FC<PropsWithChildren> = ({ children }) => {
   return (
