@@ -18,8 +18,12 @@ export const ResourcesBar: React.FC<Record<string, never>> = () => {
   };
 
   return (
-    <nav className={'flex flex-row'}>
-      <div>LOGO</div>
+    <nav
+      className={
+        'flex flex-row bg-kam-primary-dark-100 px-2 py-4 justify-between'
+      }
+    >
+      <div>KAMBODIA</div>
       <ul className={'flex'}>
         {Object.keys(resources).map((key) => (
           <li key={key} className={'mx-1'}>
